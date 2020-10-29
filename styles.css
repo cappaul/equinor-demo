@@ -1,0 +1,26 @@
+#react {
+  border: 6px dashed black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 33vw;
+  height: 60vh;
+}
+#vue {
+  border: 6px dashed black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 33vw;
+  height: 60vh;
+}
+#single-spa-application\:vanillajs {
+  border: 6px dashed black;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: antiquewhite;
+  margin-top: 10vh;
+}
+
+#singleSPA-flex {
+  display: flex;
+  justify-content: space-around;
+}

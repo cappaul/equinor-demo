@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
-import App from './App';
+import App from './temp/App';
 
 function domElementGetter() {
-  return document.getElementById("react")
+  return document.getElementById('react');
 }
 
 const reactLifecycles = singleSpaReact({
@@ -12,6 +12,6 @@ const reactLifecycles = singleSpaReact({
   ReactDOM,
   rootComponent: App,
   domElementGetter,
-})
+});
 
-export const { bootstrap, mount, unmount }= reactLifecycles
+export const { bootstrap, mount, unmount } = reactLifecycles;

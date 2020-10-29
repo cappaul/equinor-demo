@@ -1,4 +1,12 @@
 import { registerApplication, start } from 'single-spa';
+import './EquinorApp/App.js';
+
+registerApplication(
+  'vue',
+  () => import('./singleSPA/vue/index.js'),
+  () =>
+    location.pathname === '/vue' || location.pathname === '/' ? true : false,
+);
 
 registerApplication(
   'react',
